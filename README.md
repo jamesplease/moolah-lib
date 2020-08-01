@@ -1,5 +1,6 @@
 # @moolah/lib
 
+[![Travis build status](http://img.shields.io/travis/jamesplease/moolah-lib.svg?style=flat)](https://travis-ci.com/github/jamesplease/moolah-lib)
 [![npm version](https://img.shields.io/npm/v/@moolah/lib.svg)](https://www.npmjs.com/package/@moolah/lib)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/@moolah/lib/dist/index.js?compression=gzip)](https://unpkg.com/@moolah/lib/dist/index.js)
 
