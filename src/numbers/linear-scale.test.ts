@@ -39,6 +39,12 @@ const tests: TestObject[] = [
     value: 0.5,
     result: 0.25,
   },
+  {
+    domain: [1, 1],
+    range: [0, 0.5],
+    value: 1,
+    result: 1,
+  },
 ];
 
 describe('linearScale', () => {
