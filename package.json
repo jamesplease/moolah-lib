@@ -11,6 +11,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "prepublishOnly": "npm run build",
     "test": "npm run test:unit",
+    "test:coverage": "jest --coverage",
     "test:unit": "jest",
     "test:watch": "jest --watch"
   },
