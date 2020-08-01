@@ -14,7 +14,8 @@
     "test": "npm run test:unit",
     "test:coverage": "jest --coverage",
     "test:unit": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
