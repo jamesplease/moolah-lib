@@ -45,6 +45,36 @@ const tests: TestObject[] = [
     value: 1,
     result: 1,
   },
+
+  // The domain/range can be in any order
+  {
+    domain: [200, 100],
+    range: [0, 1],
+    value: 110,
+    result: 0.9,
+  },
+
+  {
+    domain: [200, 100],
+    range: [1, 0],
+    value: 110,
+    result: 0.1,
+  },
+
+  {
+    domain: [100, 200],
+    range: [1, 0],
+    value: 110,
+    result: 0.9,
+  },
+
+  // Negative numbers work, too
+  {
+    domain: [-1, 1],
+    range: [0, 1],
+    value: 0,
+    result: 0.5,
+  },
 ];
 
 describe('linearScale', () => {
@@ -60,7 +90,7 @@ describe('linearScale', () => {
         value: test.value,
       });
 
-      expect(result).toEqual(test.result);
+      expect(result).toBeCloseTo(test.result, 5);
     });
   });
 });
