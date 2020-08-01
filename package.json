@@ -1,5 +1,6 @@
 {
   "name": "@moolah/lib",
+  "private": false,
   "version": "0.0.1",
   "description": "Utilities for finance applications.",
   "main": "dist/index.js",
