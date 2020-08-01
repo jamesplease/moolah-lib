@@ -12,8 +12,8 @@
     "build:types": "tsc --emitDeclarationOnly",
     "prepublishOnly": "npm run build",
     "test": "npm run test:unit",
-    "test:unit": "jest",
-    "test:watch": "jest --watch",
+    "test:unit": "NODE_ENV=test jest",
+    "test:watch": "NODE_ENV=test jest --watch",
     "publish": "npm publish --access public"
   },
   "repository": {
