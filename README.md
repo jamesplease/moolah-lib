@@ -1,7 +1,7 @@
 # @moolah/lib
 
-[![npm version](https://img.shields.io/npm/v/moolah-lib.svg)](https://www.npmjs.com/package/moolah-lib)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/moolah-lib/dist/index.js?compression=gzip)](https://unpkg.com/moolah-lib/dist/index.js)
+[![npm version](https://img.shields.io/npm/v/@moolah/lib.svg)](https://www.npmjs.com/package/@moolah/lib)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/@moolah/lib/dist/index.js?compression=gzip)](https://unpkg.com/@moolah/lib/dist/index.js)
 
 A standard library of utilities for finance projects.
 
